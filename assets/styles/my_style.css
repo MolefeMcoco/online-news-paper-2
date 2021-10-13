@@ -1,0 +1,455 @@
+@import url("font-awesome.min.css");
+
+@font-face{
+	font-family: 'bebas';
+	src:url(../fonts/BEBAS___.ttf);
+}
+
+img{
+	width: 100% !important;
+	height: 100% !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold !important;
+	color: #000 !important;
+}
+
+ul{
+	    -webkit-padding-start: 20px !important;
+}
+
+.site_container{
+	width: 90%;
+	margin: auto;
+}
+
+/*====LOADING ICON=====*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.loaded {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left:40%;
+    top: 30%;
+    background-image: url(../images/loader4.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: -20px 0 0 -20px;
+}
+
+/*====TOP SECTION=====*/
+
+.top_advert{	
+	height: 200px;
+	margin-top: 10px;
+}
+
+
+
+
+
+/*====NAVBAR=====*/
+
+.navbar{
+	border-radius: 0 !important;
+	background-color: #ed2024 !important;
+	border: none !important;
+	color: #fff !important;
+	overflow: hidden;
+}
+
+.navbar a{
+	color: #fff !important;
+	position: relative;
+	top: -50px;
+	overflow: hidden;
+}
+
+.navbar a:hover{
+	color: #ccc !important;
+}
+
+.form-group{
+	position: relative;
+	top: -50px;
+}
+
+
+
+/*====` CONTENT=====*/
+#main{
+	padding: 15px;
+}
+
+#main a{
+	font-weight: bold !important;
+	color: #ed2024 !important;
+}
+
+#main h3{
+	text-transform: uppercase;
+}
+
+
+/*====RIGHT SIDEBAR=====*/
+
+#right_sidebar{
+	padding: 5px;
+}
+
+/*====TOP STORIES=====*/
+
+#top_stories{
+	padding: 5px 0px;
+}
+
+#top_stories article{
+	margin-bottom: 50px;
+}
+
+#top_stories img,#main_sidebar img{
+	max-height: 400px;
+}
+
+#top_stories h3{
+	font-weight: bolder;
+	margin-top: 0px;
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;	
+}
+
+#top_stories .date{
+	font-weight: bold;
+	color: #750a20;
+}
+
+/*====MAIN SIDEBAR=====*/
+
+
+
+
+#main_sidebar .box_holder{
+	border-bottom:dotted 1px #ccc;
+	margin-top: 5px;
+}
+
+#main_sidebar .box_holder h3{
+	margin-top: 0px !important;
+	padding: 5px;
+	background-color: #ed2024;
+	color: #fff !important;
+}
+
+
+#main_sidebar .box_holder a{
+	margin-top: 0px !important;
+}
+
+
+#main_sidebar .box_holder img{
+	margin-top: 10px;
+}
+
+.side_article{
+	font-size: 10px;
+	padding: 0px !important;
+}
+
+.side_article{
+	font-size: 11px;
+	padding: 0px !important;
+}
+
+
+/*====RIGHT SIDEBAR=====*/
+
+#right_sidebar h3{
+	font-weight: bolder;
+	margin-top: 0px;
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;	
+}
+
+.advert_holder{
+	border: dotted 1px;
+	min-height: 200px;
+	margin-bottom: 30px;
+	background-color: #E4E4E4;	
+}
+
+.advert_holder p{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 90px;	
+}
+
+.popular{
+	background-color: #ccc;
+	padding: 2px;
+}
+
+.popular h3{
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;
+	margin-top: 0px !important;
+}
+
+.popular .date{
+	font-size: 12px;
+}
+
+.news_letter{
+	background-color: #ed2024;
+	padding: 5px;	
+	margin:5px 0px;
+}
+
+.news_letter .form-group{
+	top: 0 !important;
+}	
+
+
+.news_letter h4{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'bebas';
+	font-size: 24px !important;
+}
+
+.news_letter h4{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'bebas';
+	font-size: 24px !important;
+}
+
+.news_letter .sign{
+	color: #fff;
+	text-align: center;
+}
+
+.news_letter .spam{
+	color: #fff;	
+}
+
+.required1 , .required2{
+	font-weight:  bolder;
+	color: #000 !important;
+}
+
+/*====BOTTOM ADVERT=====*/
+
+#bottom_advert{
+	border-top: dotted 2px;
+	border-bottom: dotted 2px;
+	margin-top: 50px;
+	padding: 25px;
+}
+
+/*====FOOTER=====*/
+
+#footer{
+	background-color:#ed2024;
+	padding: 15px;
+	color: #fff;
+	line-height: 20px;
+}
+
+#footer a{
+	color: #fff;
+}
+
+#footer h6{
+	font-weight: bolder !important;
+}
+
+#footer ul{
+	list-style-type: none;
+}
+
+.facebook a{
+	position: fixed;
+	top: 50%;
+	left: 5px;
+	color: blue !important;
+	font-size: 40px;
+}
+
+#backtotop{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	z-index: 99999;
+	font-size: 30px;
+}
+
+#backtotop .fa{
+	padding: 0px 10px;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	font-weight: bolder;
+}
+
+.designer p{
+	text-align: center !important;
+	font-weight: bolder;
+	color: #000;
+}
+
+.designer a:hover{
+	color: #004fbc !important;
+}
+
+.mm{
+	color: #004fbc;
+}
+
+.web{
+	color: #ffa500;
+}
+/*====ADS PAGE=====*/
+
+/*====ADVERTISING PROCEDURES AND REQUIREMENTS=====*/
+.ads_requirements{
+	padding: 5px 0px;
+}
+.ads_requirements h3{
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;
+	margin-top: 0px !important;
+	text-align: center;
+}
+
+.ads_requirements h4{
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;
+	margin-top: 0px !important;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.ads_requirements h4{
+	padding: 5px;
+	margin-top: 0px !important;
+}
+
+/*====ADS PRICE TABLE=====*/
+table{
+	margin: 50px 0px;
+	color: #000 !important;
+}
+tr,th{
+	width: 14%;
+	padding: 10px !important;
+
+}
+
+.contact_lollie{
+	text-align: center;
+	text-transform: uppercase;
+	color: #ed2024 !important;
+}
+
+.contact_lollie h2{
+	color: #ed2024 !important;
+}
+
+
+/*====about page=====*/
+
+.about{
+	padding-left: 0 !important;
+	padding: 5px;
+}
+
+
+
+#main h2{
+	font-weight: bolder;
+	margin-top: 0px;
+	color: #ed2024 !important;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about em{
+	font-weight: bold;
+}
+
+
+
+.about h3{
+	font-weight: bolder;
+	margin-top: 0px;
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;
+}
+
+.team_members p{
+	text-align: center;
+}
+
+
+/*====Contact page=====*/
+
+.contact_us{
+	padding: 5px;
+}
+
+.contact_us .intro{
+	padding-right: 50px;
+	margin: 50px 0px;
+}
+.contact_us section{
+	margin-bottom: 50px;
+}
+
+.contact_us h3{
+	font-weight: bolder;
+	margin-top: 0px;
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;
+}
+
+.visit h3{
+	font-weight: bolder;
+	background-color: #ed2024;
+	color: #fff !important;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

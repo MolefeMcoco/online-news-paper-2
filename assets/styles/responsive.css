@@ -1,0 +1,56 @@
+.navbar-form{
+	float: none !important;
+}
+
+
+@media screen and (max-width: 991px) {
+	.site_container{
+	width: 90%;
+	margin: auto;
+	}
+
+	.logo img{
+		max-height: 150px;
+	}
+
+	.top_advert{
+		max-height: 150px;
+	}
+
+	.side_article{
+		padding: 5px 10px !important;
+	}
+
+	.news_letter {
+    padding: 10px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	#main_sidebar .col-md-12{
+		padding-left: 5px !important;
+		padding-right: : 5px !important;
+	}
+
+	.facebook a{
+		position: static !important;
+	}
+
+	.facebook{
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	
+
+	.logo img{
+		max-height: 100px;
+	}
+
+	.top_advert{
+		max-height: 100px;
+	}
+}
